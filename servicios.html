@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum=1.0">
+        <link rel="stylesheet" href="flexboxgrid.min.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="fonts.css">
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap-theme.min.css">
+        <title>Servicios</title>
+        <script src="js/jquery.js"></script>
+        <script src="Bootstrap/js/bootstrap.min.js"></script>
+        <script src = "js/scripts.js"></script>   
+    </head>
+
+    <header id="servicios">
+        <div class="logo-menu">
+            <div class="container-fluid navbar-inverse bg-primary fixed-top">
+                <div class="row middle-xs between-xs">
+                    <div class="logo col-xs-12 col-sm-4 center-xs start-sm"><a href="index.html"><img src="img/logoLlantas.png" width="300px"></a></div>
+                    <nav class="menu col-xs-12 col-sm-8 center-xs end-sm">
+                        <a href = "index.html" class="icon-home"> Inicio</a>
+                        <a href = "servicios.html" class="icon-room_service"> Servicios</a>
+                        <a href = "productos.html" class="icon-cart"> Productos</a>
+                        <a href = "index.html #contactoSeccion" class="icon-address-book"> Contacto</a>
+                        <a href = "sucursales.html" class="icon-home"> Sucursales</a>
+                    </nav>            
+                </div>       
+            </div>           
+        </div>
+    </header>
+
+    <body id=Bserv>
+        <img src="img/servicios.png" id=logoser>
+        <div id="servicios" class="container">
+            <div class="botones">
+                <button id="Ba" type="button" class="btn btn-primary" data-toggle="modal" data-target="#balanceo" > <img src="img/Balanceo.png"></button>
+                <div class="modal fade" id="balanceo" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 id="balan">BALANCEO</h4>
+                            </div>
+
+                            <div class="serv">
+                                <p id="balan">Si nota que su volante vibra o su auto tiene ruidos en determinadas velocidades, se necesita verificar el balance de las ruedas de su vehículo.</p>
+                                <img src="img/bal1.jpg" id="info">
+                                <h1> COSTO: $50 por llanta </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="Ali" type="button" class="btn btn-primary" data-toggle="modal" data-target="#alineacion"> <img src="img/alineacion.png"></button>
+                <div class="modal fade" id="alineacion" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 id="txt">ALINEACIÓN</h4>
+                            </div>
+
+                            <div class="serv">
+                                <p id="alin">Si nota que su auto se va hacia la derecha o la izquierda cuando suelta el voltante por unos segundos, necesita verificar la alineación de su vehículo.</p>
+                                <img src="img/ali1.jpg" id="info">
+                                <h1>COSTO: $150</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="Ma" type="button" class="btn btn-primary" data-toggle="modal" data-target="#mantenimiento"> <img src="img/Mantenimiento1.png"></button>
+                <div class="modal fade" id="mantenimiento" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 id="txt">MANTENIMIENTO</h4>
+                            </div>
+
+                            <div class="serv">
+                                <p id="ejemplo">Cada cierto tiempo, su auto debe de tener un mantenimiento o revisión para así poder descubrir los inconvenientes que éste podría tener previniendo así gastos futuros o posibles accidentes.</p>
+                                <img src="img/llanteras_auto.jpg" id="info">
+                                <h1> COSTO: $50 </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="Ro" type="button" class="btn btn-primary" data-toggle="modal" data-target="#rotacion"> <img src="img/rotacion.png"></button>
+                <div class="modal fade" id="rotacion" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 id="txt">ROTACIÓN</h4>
+                            </div>
+
+                            <div class="serv">
+                                <p id="ejemplo">La rotación regular de las llantas ayuda extender su duración de las mismas y mejora su desempeño pues compensa el desgaste desigual entre ellas.</p>
+                                <img src="img/rot1.jpg" id="info">
+                                <h1>COSTO: $25 por llanta</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>

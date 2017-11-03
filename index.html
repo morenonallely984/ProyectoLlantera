@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum=1.0">
+        <link rel="stylesheet" href="flexboxgrid.min.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="fonts.css">
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap-theme.min.css">
+        <title>Llantas Automotrices e Industriales del Guadiana S.A de C.V.</title>
+        <script src="js/jquery.js"></script>
+        <script src="Bootstrap/js/bootstrap.min.js"></script>
+        <script src = "js/scripts.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <div id="inicio" class="logo-menu">
+                <div class="container-fluid navbar-inverse bg-primary fixed-top">
+                    <div class="row middle-xs between-xs">
+                        <div class="logo col-xs-12 col-sm-4 center-xs start-sm"><a href="index.html"><img src="img/logoLlantas.png" width="300px"></a></div>
+                        <nav class="menu col-xs-12 col-sm-8 center-xs end-sm">
+                            <a href = "#inicio" class="icon-home"> Inicio</a>
+                            <a href = "servicios.html" class="icon-room_service"> Servicios</a>
+                            <a href = "productos.html" class="icon-cart"> Productos</a>
+                            <a href = "#" class="icon-users" data-toggle="modal" data-target="#nosotros"> Nosotros</a>
+                            <a id="contacto" href = "#contactoSeccion" class="icon-address-book" > Contacto</a>
+                            <a href = "sucursales.html" class="icon-home"> Sucursales</a>
+                        </nav>
+                    </div>       
+                </div>           
+            </div>
+
+            <div class="modal fade" id="nosotros" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 id="txt">Nosotros</h4>
+                        </div>
+
+                        <div class="modal-body">
+                            <p id="txt"> Llantas Automotrices e Industriales del Guadiana S.A de S.V &copy;, es una empresa encargada de la venta y revisión de los neumáticos de los automóviles en Durango, DGO, México.
+                            <br>
+                            <br><b>MISIÓN</b><br>
+                            La misión de nuestra empresa es la de crear una circulación vehícular más segura, debido a la correcta revisión, mantenimiento y atención a los neumáticos de los clientes que llegan a nosotros y así lograr reducir la tasa de accidentes debido al mal mantenimiento de neumáticos. <br>
+                            <br><b>VISIÓN</b><br>
+                            Nuestra visión como empresa es la de lograr expandirnos a lo lagro del estado de Durango, llegando así a más municipios que cuenten con nuestros servicios de cuidado de neumáticos y cuidar a más familias realizando las insepcciones necesarias.<br>
+                            </p>
+                            <img src="img/llantas.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="submenu">
+                <div class="container">
+
+                    <div class="col-md-12">
+                        <div id="carousel-1" class="carousel slide" data-ride="carousel">
+                            <!-- Indicadores -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-1" data-slide-to="1"></li>
+                                <li data-target="#carousel-1" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Contenedor de la imágenes -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="img/llanteras_servicios.jpg" class="img-responsive" width=1152px height=420px>
+                                    <div class="carousel-caption">
+                                        <h3>Servicios</h3>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <img src="img/llanteras_servicio2.jpg" class="img-responsive" width=1152px height=420px>
+                                    <div class="carousel-caption">
+                                        <h3>Servicios</h3>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <img src="img/llantas-good-year.jpg" class="img-responsive" width=1152px height=420px>
+                                    <div class="carousel-caption">
+                                        <h3>Llantas Good Year</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Controles -->
+                            <a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            </a>
+                            <a href="#carousel-1" class="right carousel-control" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="main">
+            <div class="social">
+                <ul>
+                    <li><a href="http://www.facebook.com/llantaslibertad/" class="icon-facebook"></a></li>
+                    <li><a href="http://www.twitter.com" class="icon-twitter"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row middle-xs between-xs">
+                <div class="col-xs-4">
+                    <div id="contactoSeccion" class="contacto">
+                        <h1>Contactanos</h1>
+                        <p><a class="icon-location"></a>
+                            Calle Playa Roqueta 200 Victoria de Durango</p>
+                        <p><a class="icon-phone"></a> Tel. 618 810 0228</p>
+                        <p>Horarios: </p>
+                        <p>Lunes-Viernes: 9:00am - 2:00pm, 4:00pm - 7:00pm</p>
+                        <p>Sabado: 9:00am - 3:00pm</p>
+                        <p>Domingo CERRADO</p>
+                    </div>
+                </div>        
+                <div class="ubi col-xs-12 col-sm-7">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d748.6312423912806!2d-104.65122457685739!3d24.018819416275775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869bb7e417b25d33%3A0x70ea6277d074b14e!2sLlantas+del+Guadiana!5e0!3m2!1ses-419!2smx!4v1509216147503" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p> Llantas Automotrices e Industriales del Guadiana S.A de C.V.<a class="icon-copyright"></a></p>
+            <button id="volver">Inicio</button>
+        </footer>
+
+    </body>
+</html>

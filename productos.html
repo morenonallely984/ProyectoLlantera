@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum=1.0">
+        <link rel="stylesheet" href="flexboxgrid.min.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="fonts.css">
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap-theme.min.css">
+        <title>Productos</title>
+        <script src="js/jquery.js"></script>
+        <script src="Bootstrap/js/bootstrap.min.js"></script>
+        <script src = "js/scripts.js"></script>   
+    </head>
+    <body id="productos">
+        <header id="productos">
+            <div class="logo-menu">
+                <div class="container-fluid navbar-inverse bg-primary fixed-top">
+                    <div class="row middle-xs between-xs">
+                        <div class="logo col-xs-12 col-sm-4 center-xs start-sm"><a href="index.html"><img src="img/logoLlantas.png" width="300px"></a></div>
+                        <nav class="menu col-xs-12 col-sm-8 center-xs end-sm">
+                            <a href = "index.html" class="icon-home"> Inicio</a>
+                            <a href = "servicios.html" class="icon-room_service"> Servicios</a>
+                            <a href = "productos.html" class="icon-cart"> Productos</a>
+                            <a href = "index.html #contactoSeccion" class="icon-address-book"> Contacto</a>
+                            <a href = "sucursales.html" class="icon-home"> Sucursales</a>
+                        </nav>
+                    </div>       
+                </div>           
+            </div>
+
+            <img src="img/Productos.png" id="logoProd">
+        <div id="productos" class="container">
+            <div class="elemento prod1">
+                <button id="astraE" class="btn btn-info" data-toggle="modal" data-target="#astra"><img src="img/logo-astra.png" width=150px></button>
+                <button id="atosE" class="btn btn-info" data-toggle="modal" data-target="#atos"><img src="img/logo-atos.png" width=150px></button>
+                <button id="explorerE" class="btn btn-info" data-toggle="modal" data-target="#explorer"><img src="img/logo-explorer.png" width=150px></button>
+                <button id="golfE" class="btn btn-info" data-toggle="modal" data-target="#golf"><img src="img/logo-golf.png" width=150px height=150px></button>
+                <button id="pickupE" class="btn btn-info" data-toggle="modal" data-target="#pickup"><img src="img/logo-pickup.png" width=150px></button>
+                <button id="sentraE" class="btn btn-info" data-toggle="modal" data-target="#sentra"><img src="img/logo-sentra.png" width=150px></button>
+                <button id="silveradoE" class="btn btn-info" data-toggle="modal" data-target="#silverado"><img src="img/logo-silverado.png" width=150px></button>
+                <button id="tsuruE" class="btn btn-info" data-toggle="modal" data-target="#tsuru"><img src="img/logo-tsuru.png" width=150px></button>
+            </div>
+            
+            <div class="modal fade" id="astra" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-header">Llantas Astra</h4>
+
+                            <div class="modal-body">
+                                <img src="img/llantas/astra_tornelreal_700.jpg" width=250px height=250px>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="atos" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-header">Llantas Atos</h4>
+
+                            <div class="modal-body">
+                                <img src="img/llantas/atos_nexencp661_490.jpg" width=250px height=250px>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="explorer" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-header">Llantas Explorer</h4>
+
+                            <div class="modal-body">
+                                <img src="img/llantas/explorer_tornelclassic_1100.jpg" width=250px height=250px>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="golf" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-header">Llantas Golf</h4>
+
+                            <div class="modal-body">
+                                <img src="img/llantas/golf_tornelreal_690.jpg" width=250px height=250px>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="pickup" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-header">Llantas PickUp</h4>
+
+                            <div class="modal-body">
+                                <img src="img/llantas/pickup_tornelat09_1650.jpg" width=250px height=250px>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="sentra" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-header">Llantas Sentra</h4>
+
+                            <div class="modal-body">
+                                <img src="img/llantas/sentra_sigmashadow_750.jpg" width=250px height=250px>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="silverado" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-header">Llantas Silverado</h4>
+
+                            <div class="modal-body">
+                                <img src="img/llantas/silverado_hiflyvigorousat601_1790.jpg" width=250px height=250px>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="tsuru" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-header">Llantas Tsuru</h4>
+
+                            <div class="modal-body">
+                                <img src="img/llantas/tsuru_matrix_490.jpg" width=250px height=250px>
+                                <img src="img/llantas/tsuru_savaperfecta_goodyear_490.jpg" width=250px height=250px>
+                                <img src="img/llantas/tsuro_sigmashadow_490.jpg" width=250px height=250px>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
